@@ -1,0 +1,44 @@
+header {
+    align-items: center;
+    display: inline-flex;
+    margin: 40px 10%;
+    width: 80%;
+  }
+  
+  header > img {
+    height: 68px;
+  }
+  
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+  
+  .link {
+    color: #ff6060;
+    margin: auto 25px;
+    text-decoration: none;
+  }
+  .link:hover {
+    color: #000000;
+  }
+  
+  .link__menu.active {
+      border-bottom: 1px solid #ff6060;
+  }
+  
+  @media screen and (max-width: 1490px) {
+    header {
+      margin: 40px 2.5%;
+      width: 95%;
+    }
+    
+    header > img {
+      height: 47px;
+    }
+  
+    .link {
+      margin: auto 5px;
+    }
+  }

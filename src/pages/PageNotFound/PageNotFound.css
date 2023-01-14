@@ -1,0 +1,30 @@
+.pageNotFound {
+    text-align: center
+  }
+  
+  .title {
+    color: #ff6060;
+    font-size: 150px;
+    margin: auto;
+  }
+  
+  .description {
+    color: #ff6060;
+    display: block;
+    font-size: 20px;
+  }
+  
+  .link.link__404 {
+    display: block;
+    margin-top: 150px;
+  }
+  
+  @media screen and (max-width: 1490px) {
+    .title {
+      font-size: 96px;
+    }
+    
+    .description {
+      font-size: 18px;
+    }
+  }

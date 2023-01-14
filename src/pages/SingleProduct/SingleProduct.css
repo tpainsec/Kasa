@@ -1,0 +1,134 @@
+.Form {
+    color: #ff6060;
+}
+
+.lodging__owner {
+    display: inline-flex;
+    width: 100%;
+}
+
+.lodging__owner > div {
+    flex: 1 0 auto;
+}
+
+.lodging__infos {
+    flex-direction: column;
+}
+
+.lodging__title {
+    font-size: 36px;
+}
+
+.lodging__location {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.owner__infos {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.owner__name {
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+.owner__img {
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+.score {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.star {
+    height: 30px;
+    width: 30px;
+}
+
+.description-equipments {
+    display: inline-flex;
+    gap: 0 75px;
+    line-height: 22.5px;
+    list-style: none;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.description-equipments > .collapse {
+    width: 50%;
+}
+
+@media screen and (max-width: 1490px) {
+    .lodging__owner {
+        display: block;
+    }
+
+    .lodging__title {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .lodging__location {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .lodging__tags {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 10px 0;
+    }
+
+    .lodging__tags > .tags {
+        margin-left: 0px;
+        min-width: 50px;
+    }
+
+    .owner__score {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .owner__infos {
+        margin-bottom: unset;
+        width: 100%;
+    }
+
+    .owner__img {
+        height: 32px;
+        width: 32px;
+    }
+
+    .star {
+        height: 25px;
+        width: 25px;
+    }
+
+    .description-equipments {
+        display: block;
+    }
+
+    .description-equipments > .collapse {
+        width: 100%;
+    }
+    
+    .collapse {
+        margin-bottom: 20px;
+    }
+}
