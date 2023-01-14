@@ -4,7 +4,7 @@
 ## Projet 7 - Kasa
 ------------
 ### Description du projet
-Ce projet est le n°7 du parcours [**Développeur Web**](https://openclassrooms.com/fr/paths/314-developpeur-front-end "Développeur Front-End") qui consiste à créer un site react avec des données à récupérer en JSON.
+Ce projet est le n°7 du parcours [**Développeur Web**](https://openclassrooms.com/fr/paths/556-developpeur-web "Développeur Web") qui consiste à créer un site react avec des données à récupérer en JSON.
 ### Cahiers des charges
 ##### Spécifications fonctionnelles
 1. Page d'accueil listant les différents logements
@@ -25,5 +25,4 @@ Ce projet est le n°7 du parcours [**Développeur Web**](https://openclassrooms.
 - Créer des composants avec React
 
 ### Informations complémentaires
-- Soutenance validé le 19/04/2022.
 - Lien vers le site : [Cliquez-ici](https://tpainsec.github.io/Kasa/ "Cliquez-ici").
