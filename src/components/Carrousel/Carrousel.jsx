@@ -37,6 +37,9 @@ function Carrousel({images}) {
                     )
                 })
             }
+            <span className="carrousel__legend">
+                {imgAfficher +1}/{images.length}
+            </span>
             {
                 numberImg > 1 && <img className="arrow right__arrow" src={arrow} alt="Contenu suivant" onClick={imgSuivante}/>
             }
